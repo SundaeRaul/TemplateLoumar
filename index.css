@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'airb', sans-serif;
+}
+
+@font-face {
+    font-family: 'airb';
+    src: url('./fonts/AirbnbCerealBlack.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-bold';
+    src: url('./fonts/AirbnbCerealBold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-book';
+    src: url('./fonts/AirbnbCerealBook.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-extra-bold';
+    src: url('./fonts/AirbnbCerealExtraBold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-light';
+    src: url('./fonts/AirbnbCerealLight.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-medium';
+    src: url('./fonts/AirbnbCerealMedium.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    background-color: #0ab4a1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    position: fixed top;
+}
+.card {
+    width: 35%;
+    height: 22em;
+    border-radius: 15px;
+    color: white;
+    border: none !important;
+ }
+
+ .img-card {
+    filter: brightness(.8);
+    border-radius: 15px;
+ }
+
+ .card-name {
+    line-height: 0.8 !important;
+    margin: 10% 0 0 5%;
+ }
+
+ .card-button {
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20% 0 0 5% ;
+    width: 20%;
+    padding: 1%;
+ }
+
+ .carousel-cell {
+    height: auto;
+    width: 11% !important;
+ }
+
+ .cell-title {
+    margin-top: 8.5em !important;
+}
+
+.card-img {
+    filter: brightness(.6);
+    border-radius: 15px;
+}
+
+.flicky-slider {
+    position: relative !important;
+}
+
+.card-vert {
+    width: 12%;
+    height: 20em !important;
+    border-radius: 15px;
+    color: white;
+}
+
+.carousel-2 .flickity-viewport {
+    min-height: 420px 
+}
+
+.cell-text {
+    font-size: 15px;
+    padding: 6px 0;
+    line-height: 1.3;
+}
+
+@media (max-width: 1024px) {
+
+}
