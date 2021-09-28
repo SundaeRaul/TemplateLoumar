@@ -62,8 +62,9 @@ header {
  }
 
  .card-name {
-    line-height: 0.8 !important;
+    line-height: 0.8;
     margin: 10% 0 0 5%;
+    font-weight: 600;
  }
 
  .card-button {
@@ -84,6 +85,7 @@ header {
  }
 
  .cell-title {
+    line-height: 1px;
     margin-top: 8.5em !important;
 }
 
@@ -114,5 +116,44 @@ header {
 }
 
 @media (max-width: 1024px) {
+    .card {
+        height: 18em;
+    }
 
+    .card-name{
+        margin: 5% 0 0 5%;
+    }
+
+    .sub {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 1.4rem;
+    }
+
+    .card-button {
+        margin: 12% 0 0 5% ;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 70%;
+        margin-left: 6% !important;
+    }
+
+    .card-button {
+        margin: 18% 0 0 5% ;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: 90%;
+        margin-left: 90% !important;
+        height: 15em !important;
+    }
 }
