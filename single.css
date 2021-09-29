@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+@font-face {
+    font-family: 'airb';
+    src: url('./fonts/AirbnbCerealBlack.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-bold';
+    src: url('./fonts/AirbnbCerealBold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-book';
+    src: url('./fonts/AirbnbCerealBook.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-extra-bold';
+    src: url('./fonts/AirbnbCerealExtraBold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-light';
+    src: url('./fonts/AirbnbCerealLight.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'airb-medium';
+    src: url('./fonts/AirbnbCerealMedium.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.video-header {
+    font-family: 'airb-medium', sans-serif;
+    width: 100%;
+    height: 720px;
+}
+
+.header {
+    background-image: url('https://www.loumarturismo.com.br/transflix/img/bg_transflix.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.menu-item {
+    list-style: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.section-1 {
+    color: white;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+
+.subtitle, .title {
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 4.5rem;
+}
