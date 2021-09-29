@@ -81,28 +81,18 @@ header {
 
  .carousel-cell {
     height: auto;
-    width: 11% !important;
+    margin-left: 2%;
  }
 
  .cell-title {
     line-height: 1px;
-    margin-top: 8.5em !important;
+    margin-top: 9em !important;
+    font-size: 2.5em;
 }
 
 .card-img {
     filter: brightness(.6);
     border-radius: 15px;
-}
-
-.flicky-slider {
-    position: relative !important;
-}
-
-.card-vert {
-    width: 12%;
-    height: 20em !important;
-    border-radius: 15px;
-    color: white;
 }
 
 .carousel-2 .flickity-viewport {
@@ -115,9 +105,16 @@ header {
     line-height: 1.3;
 }
 
+@media (max-width: 1440px) {
+    .cell-title {
+        margin-top: 8em !important;
+        font-size: 2em;
+    }
+}
+
 @media (max-width: 1024px) {
     .card {
-        height: 18em;
+        height: 16em;
     }
 
     .card-name{
@@ -136,17 +133,41 @@ header {
         margin: 12% 0 0 5% ;
         font-size: .8rem;
     }
+
+    .cell-title {
+        margin-top: 7em !important;
+        width: 100%;
+        font-size: 1.8em;
+    }
+
+    .carousel-cell {
+        width: 20% !important;
+    }
 }
 
 @media (max-width: 768px) {
     .card {
         width: 70%;
         margin-left: 6% !important;
+        height: 18em;
     }
 
     .card-button {
         margin: 18% 0 0 5% ;
         font-size: .8rem;
+    }
+
+    .carousel-cell {
+        width: 40% !important;
+        height: 30em;
+    }
+
+    .cell-title {
+        margin-top: 11em !important;
+    }
+
+    .cell-text {
+        font-size: 20px;
     }
 }
 
@@ -154,6 +175,10 @@ header {
     .card {
         width: 90%;
         margin-left: 90% !important;
-        height: 15em !important;
+        height: 13em !important;
+    }
+
+    .carousel-cell {
+        width: 70% !important;
     }
 }
