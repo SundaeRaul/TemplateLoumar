@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(228, 228, 228);
-}
-
 @font-face {
     font-family: 'airb';
     src: url('./fonts/AirbnbCerealBlack.ttf') format(truetype);
@@ -55,6 +51,7 @@ body {
     background-image: url('https://www.loumarturismo.com.br/transflix/img/bg_transflix.gif');
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(0.5);
     height: 800px;
 }
 
@@ -65,19 +62,85 @@ body {
 }
 
 .section-1 {
+    width: 100%;
+    max-width: 1600px;
     color: white;
-    margin-top: -20%;
-    margin-left: 10%;
+    margin-top: -22%;
 }
 
 .subtitle, .title {
     margin: 0;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9999;
 }
 
 .subtitle {
     font-size: 2.5rem;
+    margin-left: 10%;
 }
 
 .title {
     font-size: 4.5rem;
+}
+
+.cards {
+    margin-top: 7%;
+    padding: 0;
+    z-index: 9999;
+    position: relative;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    height: 220px !important;
+}
+
+.card-iguassu {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.title-card {
+    text-align: center;
+    margin-top: -15%;
+    font-family: 'airb-book', sans-serif;
+}
+
+.card-description {
+    color: black;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.section-2 {
+    margin-top: 6%;
+}
+
+.video video {
+    border-radius: 15px;
+}
+
+.video {
+    border-radius: 15px;
+    position: relative;
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 15px 15px;
+}
+
+.button button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
