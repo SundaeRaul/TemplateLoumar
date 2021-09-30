@@ -63,7 +63,6 @@
 
 .section-1 {
     width: 100%;
-    max-width: 1600px;
     color: white;
     margin-top: -22%;
 }
@@ -91,15 +90,47 @@
     position: relative;
 }
 
-.card-img-top {
-    border-radius: 15px 15px 0 0;
+.card-bg1 {
+    background-image: url(./img/macuco.jpg);
+    border-radius: 36px 36px 0 0;
     height: 220px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-bg2 {
+    background-image: url(./img/cataratas-bike.jpg);
+    border-radius: 36px 36px 0 0;
+    height: 220px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-bg3 {
+    background-image: url(./img/templo-budista.jpg);
+    border-radius: 36px 36px 0 0;
+    height: 220px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-bg4 {
+    background-image: url(./img/belmond.jpg);
+    border-radius: 36px 36px 0 0;
+    height: 220px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card-iguassu {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 36px;
+    width: 19%;
 }
 
 .title-card {
@@ -119,28 +150,18 @@
     margin-top: 6%;
 }
 
-.video video {
+.reserve {
+    padding: 1.5%;
+    color: black;
+    background-color: white;
     border-radius: 15px;
-}
-
-.video {
-    border-radius: 15px;
-    position: relative;
-}
-
-.controls {
-    display: flex;
-    position: absolute;
-    bottom: 1%;
-    width: 100%;
-    flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 0 0 15px 15px;
-}
-
-.button button {
-    background: none;
-    border: none;
+    border: 2px solid black;
     outline: none;
-    cursor: pointer;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+.reserve:hover {
+    background-color: black;
+    color: white;
 }
