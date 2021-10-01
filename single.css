@@ -165,3 +165,49 @@
     background-color: black;
     color: white;
 }
+
+.section-3 {
+    margin-top: 5%;
+}
+
+.section3_img1 {
+    background-image: url(./img/macuco.jpg);
+    border-radius: 36px 0 0 36px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section3_img2 {
+    background-image: url(./img/cataratas2.jpeg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section3_imgs .section3_imgs_img1 {
+    background-image: url(./img/macuco2.jpg);
+    height: 217px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section3_imgs .section3_imgs_img2 {
+    background-image: url(./img/macuco2.jpg);
+    height: 217px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section3_img4 {
+    background-image: url(./img/helicoptero.jpg);
+    border-radius: 0 36px 36px 0;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
